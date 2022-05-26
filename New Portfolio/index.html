@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2><span>Gage </span>Woodall</h2>
+            <nav>
+                <a href="#Home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button class="hamburger">
+                <div class="bar"></div>
+            </button>
+        </div>
+    </header>
+    <nav class="mobile-nav">
+        <a href="#Home" class="nav-link">Home</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+    <main>
+        <section id="Home" class="banner">
+            <div class="container">
+                <h1>
+                    Websites you're <br class="hide-mob" />
+                    <span>not afraid </span>to share
+                </h1>
+                <h3>Website solutions for all your needs</h3>
+
+                <a href="#services" class="button">Find out more</a>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Services</h2>
+
+                <div class="services-grid">
+
+                    <div class="service">
+                        <figure class="img-box">
+                            <img src="./assets/images/service-1.jpg" alt="Website Services" class="img" />
+                        </figure>
+                        <div class="content">
+                            <h3>Websites</h3>
+                            <p>
+                                Built for being very responsive, clean, and with the skills you deserve when it
+                                comes to your website!
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <!-- <div class="service">
+                        <figure class="img-box">
+                            <img src="./assets/images/service-2.jpg" alt="App Services" class="img" />
+                        </figure>
+                        <div class="content">
+                            <h3>Apps</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum doloribus eius placeat
+                                nesciunt eligendi. Tempora fugit asperiores nam possimus, id delectus voluptatem
+                                veritatis
+                                consequatur magnam. Dolores ad quibusdam perferendis doloribus?
+                            </p>
+                        </div>
+                    </div> -->
+
+
+                    <div class="service">
+                        <figure class="img-box">
+                            <img src="./assets/images/service-3.jpg" alt="Game Services" class="img" />
+                        </figure>
+                        <div class="content">
+                            <h3>Games</h3>
+                            <p>
+                                Games built to last just like the classics! (Currently working towards 3d development)
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="service">
+                        <figure class="img-box">
+                            <img src="./assets/images/service-4.jpg" alt="Mentoring Services" class="img" />
+                        </figure>
+                        <div class="content">
+                            <h3>Mentoring</h3>
+                            <p>
+                                Don't understand what you're looking at? Can't figure out how or where to begin with
+                                coding? Or just general questions needing answers? Look no further. Let's Get To Work!
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- My Projects Section -->
+        <section class="projects" id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project">
+                        <div class="content">
+                            <h3>JetFlix</h3>
+                            <p>A very simple platform to watch all of your favorites! (Netflix Clone)</p>
+                            <a href="#" class="button">Click Me</a>
+                        </div>
+                    </div>
+
+
+                    <div class="project">
+                        <div class="content">
+                            <h3>Doggy Friendz!</h3>
+                            <p>Ever wanted to find a friend for your best friend? Look no further!</p>
+                            <a href="https://theman-1.github.io/Doggy-Friendz/" class="button">Click Me</a>
+                        </div>
+                    </div>
+
+
+                    <div class="project">
+                        <div class="content">
+                            <h3>Startup Tech Company</h3>
+                            <p>My first project, simple design to attract the viewer.</p>
+                            <a href="https://theman-1.github.io/Landing-Page-For-Tech-Comapny/" class="button">Click
+                                Me</a>
+                        </div>
+                    </div>
+
+
+                    <div class="center">
+                        <!-- <a href="#" class="button">View More</a> -->
+                    </div>
+                </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+
+                <form action="https://formsubmit.co/d9a198f2eae6a6fcfcd24fef38f3d11e" method="POST">
+                    <div class="form-grid">
+                        <input type="text" name="name" id="name" placeholder="Name" class="form-element" required />
+                        <input type="email" name="email" id="email" placeholder="Email" class="form-element" required />
+                        <textarea name="message" id="message" placeholder="Messsage" class="form-area"></textarea>
+                    </div>
+                    <div class="right-align">
+                        <input type="submit" value="Send message" class="button" />
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
