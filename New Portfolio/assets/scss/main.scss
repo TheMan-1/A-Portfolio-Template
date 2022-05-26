@@ -270,8 +270,9 @@ main {
 
             .services-grid {
                 display: grid;
-                grid-template-columns: repeat(4, 1fr);
+                grid-template-columns: repeat(3, 1fr);
                 grid-gap: 16px;
+
 
                 @media (max-width:1024px) {
                     grid-template-columns: repeat(2, 1fr);
@@ -319,6 +320,8 @@ main {
             grid-gap: 16px;
             margin-bottom: 32px;
 
+
+
             @media (max-width:768px) {
                 grid-template-columns: repeat(2, 1fr);
             }
@@ -328,7 +331,8 @@ main {
             }
 
             .project {
-                background-image: url('../images/project-img.jpg');
+                background-image: url('../images/work\ in\ progress.jpg');
+                background-size: cover;
                 border-radius: 16px;
                 overflow: hidden;
 
@@ -338,10 +342,12 @@ main {
 
                 &:nth-child(2) {
                     background-image: url('../images/Doggy.png');
+
                 }
 
                 &:nth-child(3) {
                     background-image: url('../images/Page.png');
+
                 }
 
                 .content {
@@ -390,6 +396,7 @@ main {
         .container {
             padding-top: 64px;
             padding-bottom: 64px;
+
 
             h2 {
                 color: #FFF;
